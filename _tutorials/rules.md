@@ -1,9 +1,9 @@
 ---
 number: 4
-title: SELinux rules
+title: SELinux Rules and Modules
 description: Learn the basics of how SELinux determines if an action is allowed or not.
 attribution_url: https://selinuxproject.org/page/BasicConcepts
-next_tutorials: ['audit2allow']
+next_tutorials: ['modules']
 ---
 
 The primary security mechanism of SELinux is type enforcement, meaning that
@@ -20,7 +20,7 @@ and delete files with the user_home_t type.
   <h2>Policies</h2>
 </p>
 
-A groups of rules together make a policy, which collectively allow all of the
+A groups of rules together make a module, which collectively allow all of the
 necessary permissions a given application needs. List all of the installed
 policies with the `semodule -l` command.
 

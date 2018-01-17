@@ -1,9 +1,9 @@
 ---
-number: 6
+number: 7
 title: Dissecting an SELinux Denial
 description: Learn how to interpret and understand SELinux denials
 attribution_url: https://wiki.gentoo.org/wiki/SELinux/Tutorials/Where_to_find_SELinux_permission_denial_details
-next_tutorials: ['audit2allow']
+next_tutorials: ['ausearch']
 ---
 
 Here is a SELinux denial example:

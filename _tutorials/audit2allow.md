@@ -1,8 +1,9 @@
 ---
-number: 8
+number: 10
 title: Fixing AVC denials
 description: Learn how to use audit2allow to write a "workaround" SELinuxpolicy
 attribution_url: https://selinuxproject.org/page/Audit2allowRecipe
+next_tutorials: ['multi_category_security']
 ---
 
 If SELinux is denying access for something you believe should be allowed, you
