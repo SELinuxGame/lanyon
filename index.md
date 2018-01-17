@@ -21,4 +21,5 @@ title: Home
   Learn SELinux by doing. Solve Puzzles, show skillz.
 ```
 
-Start by picking a [Scenario]({{ site.baseurl }}{% link scenarios.md %}).
+Start by picking a [Scenario]({{ site.baseurl }}{% link scenarios.md %}) or learn from a
+[Tutorial]({{ site.baseurl }}{% link tutorials.md %}).

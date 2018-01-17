@@ -1,5 +1,5 @@
 ---
-number: 5
+number: 7
 title: Permanently Set a File Context
 description: Learn how to set file context by modifying the policy.
 attribution_url: https://selinuxproject.org/page/FileLabelRecipe

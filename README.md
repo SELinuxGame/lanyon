@@ -20,8 +20,10 @@ For the SELinux Game content see the [Authors page](AUTHORS.md).
 3. Install necessary deps with dnf `sudo dnf install ruby ruby-devel gcc redhat-rpm-config git zlib-devel`
 4. Clone the repo into this box: `git clone https://github.com/SELinuxGame/selinuxgame.org.git`
 5. Go into the repo directory: `cd selinuxgame.org`
-6. Build and serve Jekyll: `bundle exec jekyll serve`
-7. Browse on your host at: http://127.0.0.1:4000/
+6. Install Bundler for ruby: `gem install bundler`
+7. Install the ruby dependencies with `bundle install`
+8. Build and serve Jekyll: `bundle exec jekyll serve`
+9. Browse on your host at: http://127.0.0.1:4000/
 
 
 ## License
