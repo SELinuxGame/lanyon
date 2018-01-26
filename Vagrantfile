@@ -8,7 +8,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
-  scenarios = [{% for scenario in site.scenarios %}'{{ scenario.slug }}', {% endfor %}]
+  scenarios = [{% for scenario in site.scenarios %}'{{ scenario.slug }}', {% endfor %} 'tutorial']
 
   scenarios.each do |scenario|
       config.vm.synced_folder ".", "/vagrant", disabled: true

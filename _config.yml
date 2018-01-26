@@ -7,6 +7,7 @@ tagline:             'Learn SELinux By Doing'
 description:         'Solve SELinux puzzles to learn and demonstrate your SELinux skillz'
 url:                 http://selinuxgame.org
 baseurl:             'http://selinuxgame.org'
+# baseurl:             'http://192.168.1.3'
 
 # About/contact
 author:
@@ -37,4 +38,4 @@ defaults:
 # Custom vars
 version:             1.1.0a1
 
-# box-add-urls: http://example.com/
+# box-add-urls: http://192.168.1.3/boxes/
