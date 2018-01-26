@@ -19,9 +19,25 @@
   count: 5
 
 - nick: fill_io
-  scenarios: all_about_context_part_1, all_about_context_part_2
-  count: 2
+  scenarios: all_about_context_part_1, all_about_context_part_2, all_my_modules, new_ways
+  count: 4
 
 - nick: ofayans
   scenarios: all_about_context_part_1, new_ways, static
   count: 3
+
+- nick: freddy77
+  scenarios: all_about_context_part_1
+  count: 1
+
+- nick: goran
+  scenarios: all_about_context_part_1
+  count: 1
+
+- nick: mikem
+  scenarios: all_about_context_part_1
+  count: 1
+
+- nick: kedra
+  scenarios: all_about_context_part_1, all_about_context_part_2
+  count: 2
