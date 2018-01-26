@@ -9,3 +9,15 @@
 - nick: mhrivnak
   scenarios: all_my_modules
   count: 1
+
+- nick: bryan_kearney
+  scenarios: all_about_context_part_1
+  count: 1
+
+- nick: piotr_
+  scenarios: all_about_context_part_1
+  count: 1
+
+- nick: fill_io
+  scenarios: all_about_context_part_1
+  count: 1
