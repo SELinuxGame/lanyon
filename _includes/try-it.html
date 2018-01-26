@@ -11,15 +11,15 @@
 Load the Vagrant box using either virtualbox or libvirt:
 {% highlight bash %}
 # For virtualbox
-vagrant box add --provider virtualbox {{ box_name }} {{ site.box-add-urls }}{{ box_name }}_virtualbox.box
-vagrant up {{ box_name }}
+vagrant box add --provider virtualbox selinuxgame/{{ box_name }} {{ site.box-add-urls }}{{ box_name }}_virtualbox.box
+vagrant up  --provider virtualbox {{ box_name }}
 vagrant ssh {{ box_name }}
 
 
 
 # For libvirt
-vagrant box add --provider libvirt {{ box_name }} {{ site.box-add-urls }}{{ box_name }}_libvirt.box
-vagrant up {{ box_name }}
+vagrant box add --provider libvirt selinuxgame/{{ box_name }} {{ site.box-add-urls }}{{ box_name }}_libvirt.box
+vagrant up --provider libvirt {{ box_name }}
 vagrant ssh {{ box_name }}
 {% endhighlight %}
 
