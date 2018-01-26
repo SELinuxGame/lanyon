@@ -12,7 +12,7 @@ baseurl:             'http://selinuxgame.org'
 # About/contact
 author:
   name:              Dennis Kliban and Brian Bouterse
-  url:               https://twitter.com/selinux
+  url:               https://twitter.com/selinuxgame
   email:             none@example.com
 
 # Collections
