@@ -47,8 +47,8 @@
   count: 8
 
 - nick: RoboHow
-  scenarios: all_about_context_part_1, all_about_context_part_2, all_my_modules
-  count: 3
+  scenarios: all_about_context_part_1, all_about_context_part_2, all_my_modules, status_check
+  count: 4
 
 - nick: BrnVrn
   scenarios: all_about_context_part_1, all_about_context_part_2, all_my_modules, status_check, new_ways
