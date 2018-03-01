@@ -71,5 +71,5 @@
   count: 6
 
 - nick: sielicki
-  scenarios: static
-  count: 1
+  scenarios: static, broken_antivirus
+  count: 2
