@@ -1,5 +1,5 @@
 <p style="padding-top:30px">
-  <h2>Try it!</h2>
+  <h3>Try it!</h3>
 
 {% if page.collection == "tutorials" %}
 {% assign box_name = 'tutorial' %}
@@ -24,8 +24,7 @@ vagrant ssh {{ box_name }}
 {% endhighlight %}
 
 {% else %}
-Explore these commands using the tutorials vagrant box. Start the environment
-using
+Explore these commands using the {{ box_name }} vagrant box. Start the environment using
 {% highlight bash %}
 vagrant up {{ box_name }}
 vagrant ssh {{ box_name }}
@@ -33,16 +32,4 @@ vagrant ssh {{ box_name }}
 If you don't have the command, visit the
   <a href="{{ site.baseurl }}{% link getting_started.md %}">getting started guide</a>
 </p>
-The "vagrant up" command downloads a Vagrant box. This can can take a few
-minutes. Vagrant boxes can be pre-downloaded using the "vagrant box" command.
-For example pre-download this scenario box using:
-
-{% highlight shell %}
-# For virtualbox
-vagrant box add --provider virtualbox {{ box_name }} selinuxgame/{{ box_name }}
-
-# For libvirt
-vagrant box add --provider libvirt {{ box_name }} selinuxgame/{{ box_name }}
-{% endhighlight %}
-
 {% endif %}
