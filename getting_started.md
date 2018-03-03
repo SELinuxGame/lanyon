@@ -2,37 +2,23 @@
 layout: page
 title: Getting Started
 ---
-Getting started has two parts:
+### Setup
 
-1. [Install Vagrant](https://www.vagrantup.com/downloads.html). To quote the
-   Vagrant docs, "Installing Vagrant is extremely easy."
+1. [Install Vagrant](https://www.vagrantup.com/downloads.html).
 
-2. Download the SELinux Game Vagrant File which defines all of the Vagrant
-   boxes.
+2. Download the [SELinuxGame Vagrantfile]({{ site.url }}/Vagrantfile) which defines
+   all of the Vagrant boxes.
 
-   ```
-   wget {{ site.baseurl }}{% link Vagrantfile %}
-   ```
+### How it Works
 
-3. From the same Directory as `Vagrantfile`, run `vagrant status` which should
-   display output listing the scenarios similar to:
+SELinuxGame has two sections: tutorials and scenarios.
 
-   ```
-   [user@localhost vagrant_test]$ vagrant status
-   Current machine states:
+The [tutorials section]({{ site.baseurl }}{% link tutorials.md %}) teaches you about SELinux
+without prompting you for an answer. It's a great place to learn how SELinux works and some
+practical ways to work with it.
 
-   broken_antivirus          not created (libvirt)
-   fresh_pulp                not created (libvirt)
-   new_ways                  not created (libvirt)
-   stayin_alive              not created (libvirt)
-
-   This environment represents multiple VMs. The VMs are all listed
-   above with their current state. For more information about a
-   specific VM, run `vagrant status NAME`.
-   ```
-
-4. Play a [Scenario]({{ site.baseurl }}{% link scenarios.md %}).
-
-If your `vagrant status` does not offer a scenario listed here, your
-Vagrantfile is out of date. Update your Vagrantfile as done in step 2, which
-can be done safely at any time.
+Each scenario in the [scenarios section]({{ site.baseurl }}{% link scenarios.md %}) gives
+you a Vagrant environment and prompts you for a SELinux solution. After you figure out
+the solution, send the answer via chat to an SELinuxGame admin to get added to the
+[leaderboard]({{ site.baseurl }}{% link leaderboard.md %}). More details are at the bottom
+of each scenario page.
