@@ -6,6 +6,7 @@ title:               SELinux Game
 tagline:             'Learn SELinux By Doing'
 description:         'Solve SELinux puzzles to learn and demonstrate your SELinux skillz'
 url:                 http://selinuxgame.org
+baseurl:
 
 # About/contact
 author:
@@ -34,6 +35,7 @@ defaults:
       layout: tutorials
 
 # Custom vars
-version:             1.1.0a1
+version:             1.2.0a1
 
-# box-add-urls: http://192.168.1.3/boxes/
+# box-add-urls: /path/to/usb/vagrant/
+
