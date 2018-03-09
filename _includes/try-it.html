@@ -13,13 +13,13 @@ Load the Vagrant box using either virtualbox or libvirt:
 # cd into the 'vagrant' dir at /path/to/usb/vagrant
 
 # For virtualbox
-vagrant box add --provider virtualbox {{ box_name }} {{ box_name }}_virtualbox.box
+vagrant box add --provider virtualbox selinuxgame/{{ box_name }} {{ box_name }}_virtualbox.box
 vagrant up  --provider virtualbox {{ box_name }}
 vagrant ssh {{ box_name }}
 
 
 # For libvirt
-vagrant box add --provider libvirt {{ box_name }} {{ box_name }}_libvirt.box
+vagrant box add --provider libvirt selinuxgame/{{ box_name }} {{ box_name }}_libvirt.box
 vagrant up --provider libvirt {{ box_name }}
 vagrant ssh {{ box_name }}
 {% endhighlight %}
