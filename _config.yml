@@ -36,5 +36,4 @@ defaults:
 # Custom vars
 version:             1.2.0a1
 
-# box-add-urls: /path/to/usb/vagrant/
-
+usb_build: false
