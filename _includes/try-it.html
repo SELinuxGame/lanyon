@@ -10,16 +10,19 @@
 {% if site.usb_build %}
 Load the Vagrant box using either virtualbox or libvirt:
 {% highlight bash %}
-# cd into the 'vagrant' dir at /path/to/usb/vagrant
+# cd into the usb drive containing the images at /path/to/usb/vagrant
+cd /path/to/usb/vagrant
 
 # For virtualbox
 vagrant box add --provider virtualbox selinuxgame/{{ box_name }} {{ box_name }}_virtualbox.box
+cd /path/to/local/system/with/Vagrantfile/  # the directory with your copy of the Vagrantfile
 vagrant up  --provider virtualbox {{ box_name }}
 vagrant ssh {{ box_name }}
 
 
 # For libvirt
 vagrant box add --provider libvirt selinuxgame/{{ box_name }} {{ box_name }}_libvirt.box
+cd /path/to/local/system/with/Vagrantfile/  # the directory with your copy of the Vagrantfile
 vagrant up --provider libvirt {{ box_name }}
 vagrant ssh {{ box_name }}
 {% endhighlight %}
