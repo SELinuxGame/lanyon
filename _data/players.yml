@@ -91,8 +91,8 @@
   count: 2
 
 - nick: addy98
-  scenarios: all_about_context_part_1
-  count: 1
+  scenarios: all_about_context_part_1, all_about_context_part_2
+  count: 2
 
 - nick: tcpiplab
   scenarios: all_about_context_part_1
