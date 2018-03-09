@@ -13,7 +13,7 @@ records for users who provide correct solutions.
 ## Contribute a Scenario
 
 Have an SELinux puzzle you think others would enjoy? Read the [scenario
-contributing guide](https://github.com/SELinuxGame/scenario_template)to see
+contributing guide](https://github.com/SELinuxGame/scenario_template) to see
 how easy contributing is. A scenario template is provided which makes it easy
 to get started.
 

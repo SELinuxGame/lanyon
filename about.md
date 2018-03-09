@@ -19,7 +19,7 @@ of it.
 
 The scenarios are run locally using Vagrant, which makes it easy to run. For
 more information on this, read the
-[Getting Started]({{ site.baseurl }}{% link getting_started.md %}) guide.
+[Getting Started]({{ layout.rel_path }}{% link getting_started.md %}index.html) guide.
 
 Follow us on Twitter at [@selinuxgame]({{ site.author.url }}) where we
 announce new lessons and respond to questions and ideas.

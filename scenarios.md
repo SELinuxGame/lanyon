@@ -18,7 +18,7 @@ The Scenarios are listed below grouped by difficulty.
 {% for scenario in site.scenarios %}
   {% if scenario.difficulty == 'easy' %}
     <tr>
-      <td><a href="{{ site.baseurl }}{{ scenario.url }}">{{ scenario.title }}</a></td>
+      <td><a href="{{ layout.rel_path }}{{ scenario.url }}index.html">{{ scenario.title }}</a></td>
       <td>{{ scenario.description }}</td>
     </tr>
   {% endif %}
@@ -39,7 +39,7 @@ The Scenarios are listed below grouped by difficulty.
 {% for scenario in site.scenarios %}
   {% if scenario.difficulty == 'medium' %}
     <tr>
-      <td><a href="{{ site.baseurl }}{{ scenario.url }}">{{ scenario.title }}</a></td>
+      <td><a href="{{ layout.rel_path }}{{ scenario.url }}">{{ scenario.title }}</a></td>
       <td>{{ scenario.description }}</td>
     </tr>
   {% endif %}
@@ -60,7 +60,7 @@ The Scenarios are listed below grouped by difficulty.
 {% for scenario in site.scenarios %}
   {% if scenario.difficulty == 'hard' %}
     <tr>
-      <td><a href="{{ site.baseurl }}{{ scenario.url }}">{{ scenario.title }}</a></td>
+      <td><a href="{{ layout.rel_path }}{{ scenario.url }}">{{ scenario.title }}</a></td>
       <td>{{ scenario.description }}</td>
     </tr>
   {% endif %}

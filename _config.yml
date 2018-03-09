@@ -6,7 +6,6 @@ title:               SELinux Game
 tagline:             'Learn SELinux By Doing'
 description:         'Solve SELinux puzzles to learn and demonstrate your SELinux skillz'
 url:                 http://selinuxgame.org
-baseurl:
 
 # About/contact
 author:
