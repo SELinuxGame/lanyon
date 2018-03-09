@@ -1,5 +1,6 @@
 ---
 layout: default
+rel_path: ../..
 ---
 
 <div class="page">
@@ -9,9 +10,9 @@ layout: default
   <h3>To play:</h3>
     <ol>
       <li><a href="https://www.vagrantup.com/downloads.html">Install Vagrant</a>.</li>
-      <li>Download a copy of <a href="{{ site.url }}/Vagrantfile">the Vagrantfile</a></li>
+      <li>Download a copy of <a href="{{ layout.rel_path }}/Vagrantfile">the Vagrantfile</a></li>
       <li>Answer the questions asked by the scenario.</li>
-      <li>Submit the answer to an Admin to get on the <a href="{% link leaderboard.md %}">leaderboard</a></li>
+      <li>Submit the answer to an Admin to get on the <a href="{{ layout.rel_path }}{% link leaderboard.md %}index.html">leaderboard</a></li>
     </ol>
   </p>
 
@@ -25,9 +26,9 @@ layout: default
   <h3 style="padding-top:30px">Submit your Answer</h3>
   <p>
     When you believe you know the answer, tell it to one of the
-    <a href="{{ site.baseurl }}{% link admins.md %}"> SELinux Game Admins</a>
+    <a href="{{ layout.rel_path }}{% link admins.md %}index.html"> SELinux Game Admins</a>
     via Freenode. An admin can verify your solution and record your name on
-    <a href="{{ site.baseurl }}{% link leaderboard.md %}">the leaderboard</a>.
+    <a href="{{ layout.rel_path }}{% link leaderboard.md %}index.html">the leaderboard</a>.
   </p>
 
   You may be able to connect to Freenode using: <a href="https://webchat.freenode.net/">webchat.freenode.net</a>
