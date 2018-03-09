@@ -21,7 +21,7 @@ loading this box are on the tutorial pages.
 {% assign sorted_tutorials = site.tutorials | sort: 'number' %}
 {% for tutorial in sorted_tutorials %}
     <tr>
-      <td><a href="{{ layout.rel_path }}{{ tutorial.url }}">{{ tutorial.title }}</a></td>
+      <td><a href="{{ layout.rel_path }}{{ tutorial.url }}index.html">{{ tutorial.title }}</a></td>
       <td>{{ tutorial.description }}</td>
     </tr>
 {% endfor %}
