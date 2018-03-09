@@ -83,12 +83,12 @@
   count: 4
 
 - nick: Karaface
-  scenarios: all_about_context_part_1, all_my_modules, new_ways
-  count: 3
+  scenarios: all_about_context_part_1, all_my_modules, new_ways, static
+  count: 4
 
 - nick: rachelb4x4
-  scenarios: all_about_context_part_1, all_about_context_part_2
-  count: 2
+  scenarios: all_about_context_part_1, all_about_context_part_2, broken_antivirus
+  count: 3
 
 - nick: addy98
   scenarios: all_about_context_part_1, all_about_context_part_2, all_my_modules, status_check
