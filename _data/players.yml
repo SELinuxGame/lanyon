@@ -139,5 +139,5 @@
   count: 1
 
 - nick: L3XYS
-  scenarios: all_about_context_part_1, all_about_context_part_2
-  count: 2
+  scenarios: all_about_context_part_1, all_about_context_part_2, all_my_modules
+  count: 3
