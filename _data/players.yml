@@ -141,3 +141,7 @@
 - nick: L3XYS
   scenarios: all_about_context_part_1, all_about_context_part_2, all_my_modules, status_check, static
   count: 4
+
+- nick: tuxlu
+  scenarios: all_about_context_part_1, all_about_context_part_2, all_my_modules, status_check, new_ways, static, broken_antivirus, stayin_alive
+  count: 8
